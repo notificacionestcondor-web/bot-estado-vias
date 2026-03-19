@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+venv/
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# No ignorar los JSONs generados (son parte de GitHub Pages)
+# !docs/data/*.json
+# !docs/reportes/*.html

@@ -1,0 +1,14 @@
+{
+  "corredores": [
+    {"nombre": "Bogotá – Medellín", "distancia_km": 415, "tiempo_normal_hrs": 8},
+    {"nombre": "Bogotá – Cali", "distancia_km": 460, "tiempo_normal_hrs": 9},
+    {"nombre": "Bogotá – Eje Cafetero", "distancia_km": 300, "tiempo_normal_hrs": 6},
+    {"nombre": "Bogotá – Bucaramanga", "distancia_km": 395, "tiempo_normal_hrs": 7},
+    {"nombre": "Bogotá – Cúcuta", "distancia_km": 555, "tiempo_normal_hrs": 10},
+    {"nombre": "Bogotá – Costa Caribe", "distancia_km": 960, "tiempo_normal_hrs": 16},
+    {"nombre": "Bogotá – Popayán", "distancia_km": 610, "tiempo_normal_hrs": 11},
+    {"nombre": "Bogotá – Pasto", "distancia_km": 800, "tiempo_normal_hrs": 15},
+    {"nombre": "Bogotá – Villavicencio", "distancia_km": 120, "tiempo_normal_hrs": 3},
+    {"nombre": "Bogotá – Boyacá", "distancia_km": 140, "tiempo_normal_hrs": 3}
+  ]
+}

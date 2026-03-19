@@ -1,0 +1,71 @@
+name: Generar Reporte Estado de Vías
+
+on:
+  schedule:
+    # Hora Colombia (UTC-5):
+    # 06:00 AM COT = 11:00 UTC
+    - cron: '0 11 * * *'
+    # 12:00 PM COT = 17:00 UTC
+    - cron: '0 17 * * *'
+    # 05:00 PM COT = 22:00 UTC
+    - cron: '0 22 * * *'
+
+  # Permite ejecución manual desde GitHub
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+env:
+  TZ: America/Bogota
+
+jobs:
+  generar-reporte:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repositorio
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Instalar dependencias
+        run: |
+          pip install -r requirements.txt
+
+      - name: Instalar Chrome headless
+        uses: browser-actions/setup-chrome@v1
+        with:
+          chrome-version: 'stable'
+
+      - name: Instalar ChromeDriver
+        uses: nanasess/setup-chromedriver@v2
+
+      - name: Ejecutar BOT
+        env:
+          GMAIL_USER: ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          EMAIL_RECIPIENTS: ${{ secrets.EMAIL_RECIPIENTS }}
+          GITHUB_PAGES_URL: ${{ secrets.GITHUB_PAGES_URL }}
+        run: |
+          python main.py
+
+      - name: Publicar en GitHub Pages
+        run: |
+          git config user.name "BOT Estado de Vías"
+          git config user.email "bot@transportescondor.com"
+          git add docs/ data/
+          git diff --staged --quiet || git commit -m "📋 Reporte $(TZ=America/Bogota date +'%Y-%m-%d %H:%M') COT"
+          git push
+
+      - name: Guardar PDF como artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: boletin-pdf-${{ github.run_number }}
+          path: docs/reportes/*.pdf
+          retention-days: 30
