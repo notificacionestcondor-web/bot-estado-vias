@@ -198,7 +198,7 @@ DESTINATARIOS = [
 # =============================================================================
 
 GITHUB_PAGES_URL = os.environ.get(
-    "GITHUB_PAGES_URL",
+    "PAGES_URL",
     "https://tu-usuario.github.io/bot-estado-vias"
 )
 DOCS_DIR = "docs"
