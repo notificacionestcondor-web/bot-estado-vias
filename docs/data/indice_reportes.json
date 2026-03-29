@@ -2,6 +2,16 @@
   "reportes": [
     {
       "fecha": "2026-03-29",
+      "hora": "13:08",
+      "periodo": "Segundo Reporte — Actualización de novedades",
+      "archivo": "Boletin_Vias_TCCondor_20260329_1308.html",
+      "total_novedades": 0,
+      "alto": 0,
+      "medio": 0,
+      "bajo": 0
+    },
+    {
+      "fecha": "2026-03-29",
       "hora": "07:01",
       "periodo": "Primer Reporte — Planeación de despachos nacionales",
       "archivo": "Boletin_Vias_TCCondor_20260329_0701.html",
