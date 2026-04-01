@@ -1,6 +1,16 @@
 {
   "reportes": [
     {
+      "fecha": "2026-04-01",
+      "hora": "10:00",
+      "periodo": "Segundo Reporte — Actualización de novedades",
+      "archivo": "Boletin_Vias_TCCondor_20260401_1000.html",
+      "total_novedades": 0,
+      "alto": 0,
+      "medio": 0,
+      "bajo": 0
+    },
+    {
       "fecha": "2026-03-31",
       "hora": "18:55",
       "periodo": "Tercer Reporte — Cierre logístico del día",
