@@ -1,6 +1,16 @@
 {
   "reportes": [
     {
+      "fecha": "2026-04-07",
+      "hora": "07:00",
+      "periodo": "Primer Reporte — Planeación de despachos nacionales",
+      "archivo": "Boletin_Vias_TCCondor_20260407_0700.html",
+      "total_novedades": 0,
+      "alto": 0,
+      "medio": 0,
+      "bajo": 0
+    },
+    {
       "fecha": "2026-04-06",
       "hora": "18:58",
       "periodo": "Tercer Reporte — Cierre logístico del día",
