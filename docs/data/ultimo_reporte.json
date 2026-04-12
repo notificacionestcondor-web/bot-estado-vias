@@ -1,7 +1,7 @@
 {
-  "fecha": "2026-04-11",
-  "hora": "17:37",
-  "periodo": "Tercer Reporte — Cierre logístico del día",
+  "fecha": "2026-04-12",
+  "hora": "06:43",
+  "periodo": "Primer Reporte — Planeación de despachos nacionales",
   "total_novedades": 0,
   "resumen": {
     "alto": 0,
@@ -12,19 +12,19 @@
   "errores_scraping": [
     {
       "fuente": "INVÍAS",
-      "error": "Message: \nStacktrace:\n#0 0x560f4f24fa6a <unknown>\n#1 0x560f4ec5eab5 <unknown>\n#2 0x560f4ecb1676 <unknown>\n#3 0x560f4ecb18b1 <unknown>\n#4 0x560f4ecfc614 <unknown>\n#5 0x560f4ecf97b6 <unknown>\n#6 0x560f4eca4cbf <unknown>\n#7 0x560f4eca5a81 <unknown>\n#8 0x560f4f215a64 <unknown>\n#9 0x560f4f218951 <unknown>\n#10 0x560f4f20221e <unknown>\n#11 0x560f4f21951e <unknown>\n#12 0x560f4f1e8be0 <unknown>\n#13 0x560f4f23c9b8 <unknown>\n#14 0x560f4f23cb88 <unknown>\n#15 0x560f4f24e4de <unknown>\n#16 0x7f0d77c9caa4 <unknown>\n#17 0x7f0d77d29c6c <unknown>\n",
-      "timestamp": "2026-04-11T17:34:07.414831"
+      "error": "Message: \nStacktrace:\n#0 0x560804340a6a <unknown>\n#1 0x560803d4fab5 <unknown>\n#2 0x560803da2676 <unknown>\n#3 0x560803da28b1 <unknown>\n#4 0x560803ded614 <unknown>\n#5 0x560803dea7b6 <unknown>\n#6 0x560803d95cbf <unknown>\n#7 0x560803d96a81 <unknown>\n#8 0x560804306a64 <unknown>\n#9 0x560804309951 <unknown>\n#10 0x5608042f321e <unknown>\n#11 0x56080430a51e <unknown>\n#12 0x5608042d9be0 <unknown>\n#13 0x56080432d9b8 <unknown>\n#14 0x56080432db88 <unknown>\n#15 0x56080433f4de <unknown>\n#16 0x7f2a7f29caa4 <unknown>\n#17 0x7f2a7f329c6c <unknown>\n",
+      "timestamp": "2026-04-12T06:39:28.172636"
     },
     {
       "fuente": "ANI",
-      "error": "Message: timeout: Timed out receiving message from renderer: 29.656\n  (Session info: chrome=146.0.7680.177)\nStacktrace:\n#0 0x55cf7d1dfa6a <unknown>\n#1 0x55cf7cbeeab5 <unknown>\n#2 0x55cf7cbd63bb <unknown>\n#3 0x55cf7cbd60a4 <unknown>\n#4 0x55cf7cbd3deb <unknown>\n#5 0x55cf7cbd476f <unknown>\n#6 0x55cf7cbe37a0 <unknown>\n#7 0x55cf7cbfd4b7 <unknown>\n#8 0x55cf7cc03feb <unknown>\n#9 0x55cf7cbd4ebf <unknown>\n#10 0x55cf7cbfd24b <unknown>\n#11 0x55cf7cc89ac6 <unknown>\n#12 0x55cf7cc34cbf <unknown>\n#13 0x55cf7cc35a81 <unknown>\n#14 0x55cf7d1a5a64 <unknown>\n#15 0x55cf7d1a8951 <unknown>\n#16 0x55cf7d19221e <unknown>\n#17 0x55cf7d1a951e <unknown>\n#18 0x55cf7d178be0 <unknown>\n#19 0x55cf7d1cc9b8 <unknown>\n#20 0x55cf7d1ccb88 <unknown>\n#21 0x55cf7d1de4de <unknown>\n#22 0x7fd7eae9caa4 <unknown>\n#23 0x7fd7eaf29c6c <unknown>\n",
-      "timestamp": "2026-04-11T17:35:13.077482"
+      "error": "Message: timeout: Timed out receiving message from renderer: 29.653\n  (Session info: chrome=146.0.7680.177)\nStacktrace:\n#0 0x55d39afaca6a <unknown>\n#1 0x55d39a9bbab5 <unknown>\n#2 0x55d39a9a33bb <unknown>\n#3 0x55d39a9a30a4 <unknown>\n#4 0x55d39a9a0deb <unknown>\n#5 0x55d39a9a176f <unknown>\n#6 0x55d39a9b07a0 <unknown>\n#7 0x55d39a9ca4b7 <unknown>\n#8 0x55d39a9d0feb <unknown>\n#9 0x55d39a9a1ebf <unknown>\n#10 0x55d39a9ca24b <unknown>\n#11 0x55d39aa56ac6 <unknown>\n#12 0x55d39aa01cbf <unknown>\n#13 0x55d39aa02a81 <unknown>\n#14 0x55d39af72a64 <unknown>\n#15 0x55d39af75951 <unknown>\n#16 0x55d39af5f21e <unknown>\n#17 0x55d39af7651e <unknown>\n#18 0x55d39af45be0 <unknown>\n#19 0x55d39af999b8 <unknown>\n#20 0x55d39af99b88 <unknown>\n#21 0x55d39afab4de <unknown>\n#22 0x7f93cdc9caa4 <unknown>\n#23 0x7f93cdd29c6c <unknown>\n",
+      "timestamp": "2026-04-12T06:40:33.742233"
     },
     {
       "fuente": "Movilidad Bogotá",
-      "error": "Message: \nStacktrace:\n#0 0x55ba7c239a6a <unknown>\n#1 0x55ba7bc48ab5 <unknown>\n#2 0x55ba7bc9b676 <unknown>\n#3 0x55ba7bc9b8b1 <unknown>\n#4 0x55ba7bce6614 <unknown>\n#5 0x55ba7bce37b6 <unknown>\n#6 0x55ba7bc8ecbf <unknown>\n#7 0x55ba7bc8fa81 <unknown>\n#8 0x55ba7c1ffa64 <unknown>\n#9 0x55ba7c202951 <unknown>\n#10 0x55ba7c1ec21e <unknown>\n#11 0x55ba7c20351e <unknown>\n#12 0x55ba7c1d2be0 <unknown>\n#13 0x55ba7c2269b8 <unknown>\n#14 0x55ba7c226b88 <unknown>\n#15 0x55ba7c2384de <unknown>\n#16 0x7f697029caa4 <unknown>\n#17 0x7f6970329c6c <unknown>\n",
-      "timestamp": "2026-04-11T17:36:49.908063"
+      "error": "Message: \nStacktrace:\n#0 0x55ba45db3a6a <unknown>\n#1 0x55ba457c2ab5 <unknown>\n#2 0x55ba45815676 <unknown>\n#3 0x55ba458158b1 <unknown>\n#4 0x55ba45860614 <unknown>\n#5 0x55ba4585d7b6 <unknown>\n#6 0x55ba45808cbf <unknown>\n#7 0x55ba45809a81 <unknown>\n#8 0x55ba45d79a64 <unknown>\n#9 0x55ba45d7c951 <unknown>\n#10 0x55ba45d6621e <unknown>\n#11 0x55ba45d7d51e <unknown>\n#12 0x55ba45d4cbe0 <unknown>\n#13 0x55ba45da09b8 <unknown>\n#14 0x55ba45da0b88 <unknown>\n#15 0x55ba45db24de <unknown>\n#16 0x7fae5749caa4 <unknown>\n#17 0x7fae57529c6c <unknown>\n",
+      "timestamp": "2026-04-12T06:42:38.145118"
     }
   ],
-  "archivo_html": "Boletin_Vias_TCCondor_20260411_1737.html"
+  "archivo_html": "Boletin_Vias_TCCondor_20260412_0643.html"
 }
