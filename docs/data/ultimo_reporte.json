@@ -1,7 +1,7 @@
 {
   "fecha": "2026-04-24",
-  "hora": "07:05",
-  "periodo": "Primer Reporte — Planeación de despachos nacionales",
+  "hora": "12:55",
+  "periodo": "Segundo Reporte — Actualización de novedades",
   "total_novedades": 0,
   "resumen": {
     "alto": 0,
@@ -12,14 +12,14 @@
   "errores_scraping": [
     {
       "fuente": "INVÍAS",
-      "error": "Message: \nStacktrace:\n#0 0x557960233b0a <unknown>\n#1 0x55795fc35265 <unknown>\n#2 0x55795fc87f76 <unknown>\n#3 0x55795fc881b1 <unknown>\n#4 0x55795fcd37d4 <unknown>\n#5 0x55795fcd0969 <unknown>\n#6 0x55795fc7b5cf <unknown>\n#7 0x55795fc7c391 <unknown>\n#8 0x5579601f8feb <unknown>\n#9 0x5579601fbfad <unknown>\n#10 0x5579601e57a8 <unknown>\n#11 0x5579601fcb40 <unknown>\n#12 0x5579601cc220 <unknown>\n#13 0x557960220d58 <unknown>\n#14 0x557960220f28 <unknown>\n#15 0x55796023257e <unknown>\n#16 0x7f762609caa4 <unknown>\n#17 0x7f7626129c6c <unknown>\n",
-      "timestamp": "2026-04-24T07:02:05.781692"
+      "error": "Message: \nStacktrace:\n#0 0x562468577b0a <unknown>\n#1 0x562467f79265 <unknown>\n#2 0x562467fcbf76 <unknown>\n#3 0x562467fcc1b1 <unknown>\n#4 0x5624680177d4 <unknown>\n#5 0x562468014969 <unknown>\n#6 0x562467fbf5cf <unknown>\n#7 0x562467fc0391 <unknown>\n#8 0x56246853cfeb <unknown>\n#9 0x56246853ffad <unknown>\n#10 0x5624685297a8 <unknown>\n#11 0x562468540b40 <unknown>\n#12 0x562468510220 <unknown>\n#13 0x562468564d58 <unknown>\n#14 0x562468564f28 <unknown>\n#15 0x56246857657e <unknown>\n#16 0x7fb8dbe9caa4 <unknown>\n#17 0x7fb8dbf29c6c <unknown>\n",
+      "timestamp": "2026-04-24T12:52:57.683087"
     },
     {
       "fuente": "Movilidad Bogotá",
-      "error": "Message: \nStacktrace:\n#0 0x56393b6bab0a <unknown>\n#1 0x56393b0bc265 <unknown>\n#2 0x56393b10ef76 <unknown>\n#3 0x56393b10f1b1 <unknown>\n#4 0x56393b15a7d4 <unknown>\n#5 0x56393b157969 <unknown>\n#6 0x56393b1025cf <unknown>\n#7 0x56393b103391 <unknown>\n#8 0x56393b67ffeb <unknown>\n#9 0x56393b682fad <unknown>\n#10 0x56393b66c7a8 <unknown>\n#11 0x56393b683b40 <unknown>\n#12 0x56393b653220 <unknown>\n#13 0x56393b6a7d58 <unknown>\n#14 0x56393b6a7f28 <unknown>\n#15 0x56393b6b957e <unknown>\n#16 0x7f793729caa4 <unknown>\n#17 0x7f7937329c6c <unknown>\n",
-      "timestamp": "2026-04-24T07:04:12.594838"
+      "error": "Message: \nStacktrace:\n#0 0x563b755b8b0a <unknown>\n#1 0x563b74fba265 <unknown>\n#2 0x563b7500cf76 <unknown>\n#3 0x563b7500d1b1 <unknown>\n#4 0x563b750587d4 <unknown>\n#5 0x563b75055969 <unknown>\n#6 0x563b750005cf <unknown>\n#7 0x563b75001391 <unknown>\n#8 0x563b7557dfeb <unknown>\n#9 0x563b75580fad <unknown>\n#10 0x563b7556a7a8 <unknown>\n#11 0x563b75581b40 <unknown>\n#12 0x563b75551220 <unknown>\n#13 0x563b755a5d58 <unknown>\n#14 0x563b755a5f28 <unknown>\n#15 0x563b755b757e <unknown>\n#16 0x7fbcfd69caa4 <unknown>\n#17 0x7fbcfd729c6c <unknown>\n",
+      "timestamp": "2026-04-24T12:54:55.033609"
     }
   ],
-  "archivo_html": "Boletin_Vias_TCCondor_20260424_0705.html"
+  "archivo_html": "Boletin_Vias_TCCondor_20260424_1255.html"
 }
