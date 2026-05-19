@@ -2,6 +2,16 @@
   "reportes": [
     {
       "fecha": "2026-05-19",
+      "hora": "18:06",
+      "periodo": "Tercer Reporte — Cierre logístico del día",
+      "archivo": "Boletin_Vias_TCCondor_20260519_1806.html",
+      "total_novedades": 0,
+      "alto": 0,
+      "medio": 0,
+      "bajo": 0
+    },
+    {
+      "fecha": "2026-05-19",
       "hora": "14:06",
       "periodo": "Tercer Reporte — Cierre logístico del día",
       "archivo": "Boletin_Vias_TCCondor_20260519_1406.html",
@@ -885,16 +895,6 @@
       "hora": "07:12",
       "periodo": "Primer Reporte — Planeación de despachos nacionales",
       "archivo": "Boletin_Vias_TCCondor_20260420_0712.html",
-      "total_novedades": 0,
-      "alto": 0,
-      "medio": 0,
-      "bajo": 0
-    },
-    {
-      "fecha": "2026-04-19",
-      "hora": "17:40",
-      "periodo": "Tercer Reporte — Cierre logístico del día",
-      "archivo": "Boletin_Vias_TCCondor_20260419_1740.html",
       "total_novedades": 0,
       "alto": 0,
       "medio": 0,
